@@ -9,6 +9,7 @@
     android:background="@color/darkblue"
     android:padding="12dp"
     tools:context=".MainActivity2">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,24 +19,29 @@
         android:textStyle="bold"
         android:paddingTop="20dp"
         android:textColor="@color/white"/>
+
     <TextView
+        android:id="@+id/textCurrentDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="mon june 20"
         android:gravity="center"
         android:textColor="@color/white"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:paddingBottom="10dp">
+        android:paddingBottom="10sp">
 
         <ImageView
+            android:id="@+id/locationIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/location"/>
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textCurrentLocation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -46,6 +52,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:baselineAligned="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -61,7 +68,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="subuh"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:gravity="center"
                 android:textColor="@color/white"/>
             <TextView
@@ -69,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="time"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:gravity="center"
                 android:textColor="@color/white"/>
         </LinearLayout>
@@ -85,14 +92,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="dzuhur"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:gravity="center"
                 android:textColor="@color/white"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="time"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:gravity="center"
                 android:textColor="@color/white"/>
         </LinearLayout>
@@ -107,14 +114,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="ashar"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:gravity="center"
                 android:textColor="@color/white"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="time"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:gravity="center"
                 android:textColor="@color/white"/>
         </LinearLayout>
@@ -129,14 +136,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="maghrib"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:gravity="center"
                 android:textColor="@color/white"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="time"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:gravity="center"
                 android:textColor="@color/white"/>
         </LinearLayout>
@@ -151,14 +158,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="isya"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:gravity="center"
                 android:textColor="@color/white"/>
             <TextView
+                android:id="@+id/textIsya"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="time"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:gravity="center"
                 android:textColor="@color/white"/>
         </LinearLayout>

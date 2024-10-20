@@ -58,7 +58,6 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.retrofit)
     implementation(libs.gson)
-    implementation(libs.navigation.fragment)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.fragment)//library location google
     testImplementation(libs.junit)
