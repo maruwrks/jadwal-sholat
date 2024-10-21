@@ -7,7 +7,7 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 
 interface RetrofitService{
-    @GET("bandung.json?key=51df7ca86a64638233f46a4059cf8e3f")
+    @GET("{city}.json?key=51df7ca86a64638233f46a4059cf8e3f")
 
     fun getAPI(@Path("city")city:String): retrofit2.Call<solat>
 

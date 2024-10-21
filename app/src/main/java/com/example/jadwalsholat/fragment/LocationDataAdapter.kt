@@ -45,7 +45,7 @@ class LocationDataAdapter(
     ) : RecyclerView.ViewHolder(binding.root){
         fun bind(currentLocation: currentLocation){
             with(binding){
-                textCurrentDate.text = currentLocation.date
+                Date.text = currentLocation.date
                 textCurrentLocation.text = currentLocation.location
                 locationIcon.setOnClickListener { onlocationClicked() }
                 textCurrentLocation.setOnClickListener { onlocationClicked() }

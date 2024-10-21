@@ -11,17 +11,18 @@
     tools:context=".MainActivity2">
 
     <TextView
+        android:id="@+id/Time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="JAM"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:gravity="center"
         android:textStyle="bold"
         android:paddingTop="20dp"
         android:textColor="@color/white"/>
 
     <TextView
-        android:id="@+id/textCurrentDate"
+        android:id="@+id/Date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="mon june 20"
@@ -70,13 +71,13 @@
                 android:gravity="center"
                 android:textColor="@color/white"/>
             <TextView
-                android:id="@+id/timesubuh"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="time"
                 android:textSize="15sp"
                 android:gravity="center"
-                android:textColor="@color/white"/>
+                android:textColor="@color/white"
+                android:id="@+id/timesubuh"/>
         </LinearLayout>
 
         <LinearLayout
@@ -94,6 +95,7 @@
                 android:gravity="center"
                 android:textColor="@color/white"/>
             <TextView
+                android:id="@+id/timeDzuhur"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="time"
@@ -116,6 +118,7 @@
                 android:gravity="center"
                 android:textColor="@color/white"/>
             <TextView
+                android:id="@+id/timeasar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="time"
@@ -138,6 +141,7 @@
                 android:gravity="center"
                 android:textColor="@color/white"/>
             <TextView
+                android:id="@+id/timemaghrib"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="time"

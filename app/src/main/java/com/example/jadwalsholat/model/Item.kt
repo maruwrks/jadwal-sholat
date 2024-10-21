@@ -11,7 +11,7 @@ data class Item(
     @SerializedName("dhuhr")
     val dhuhr: String,
     @SerializedName("fajr")
-    val fajr: String,
+    var fajr: String,
     @SerializedName("isha")
     val isha: String,
     @SerializedName("maghrib")
