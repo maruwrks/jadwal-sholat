@@ -32,9 +32,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:paddingBottom="10sp">
+        android:paddingBottom="10dp">
 
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/locationIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,11 +44,9 @@
             android:id="@+id/textCurrentLocation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
+            android:padding="10sp"
             android:textColor="@color/white"
             android:text="dayeuhkolot, bandung barat"/>
-
-
     </LinearLayout>
 
     <LinearLayout
@@ -162,11 +160,12 @@
                 android:gravity="center"
                 android:textColor="@color/white"/>
             <TextView
-                android:id="@+id/textIsya"
+                android:id="@+id/timeIsya"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:gravity="center"
+                android:text="time"
                 android:textColor="@color/white"/>
         </LinearLayout>
     </LinearLayout>

@@ -47,6 +47,7 @@ class LocationDataAdapter(
             with(binding){
                 textCurrentDate.text = currentLocation.date
                 textCurrentLocation.text = currentLocation.location
+                locationIcon.setOnClickListener { onlocationClicked() }
                 textCurrentLocation.setOnClickListener { onlocationClicked() }
             }
         }
